@@ -4,7 +4,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import { ModeToggle } from "../ModToggle";
 import Link from "next/link";
 
 const navLinks = [
@@ -62,7 +61,6 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-3 md:gap-4">
-          <ModeToggle />
           <motion.a
             href="https://app.foodsnap.in/sign-up?redirect=%2Fpricing"
             target="_blank"
