@@ -1,7 +1,7 @@
 import React from "react";
 import { Headset, Rows, Zap, ShieldCheck, MessageCircle } from "lucide-react";
 import Template from "@/components/global/template";
-import { COMPANY } from "@/constant";
+import { COMPANY } from "@/constants";
 
 export const metadata = {
   title: `FAQ - ${COMPANY.NAME}`,
